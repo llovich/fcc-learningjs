@@ -5,6 +5,7 @@ Return the length of the longest word in the provided sentence.
 Your response should be a number.
 
 RE my answer: not sure it is elegant bc may be high on comp time
+RE edit
 */
 
 function findLongestWord(str) {
@@ -16,8 +17,8 @@ function findLongestWord(str) {
 
   for (var i=0; i < count; i++){
     //enters if when current word is longer than longestWord
-    if ( String(strWords[i]).length > longestWord ) {
-     longestWord = String(strWords[i]).length;
+    if ( strWords[i].length > longestWord ) {
+     longestWord = strWords[i].length;
     }
   }
   return longestWord;
