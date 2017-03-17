@@ -5,7 +5,6 @@ Return the length of the longest word in the provided sentence.
 Your response should be a number.
 
 RE my answer: not sure it is elegant bc may be high on comp time
-RE edit
 */
 
 function findLongestWord(str) {
