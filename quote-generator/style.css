@@ -1,0 +1,12 @@
+body{font-size:15px; padding-top: 100px; padding-right: 200px; padding-left:200px; padding-bottom:150px;}
+h2 {font-size:2.5em; color:red; font-family: 'Amatic SC', cursive;}
+.quote {
+  font-family: 'Josefin Slab', serif;
+  font-size:2em;
+}
+
+.author {font-style: italic; padding-right:35px; color: red; }
+
+.btn {font-family: 'Josefin Slab', serif; }
+
+.btn-danger{background-color: red;}
